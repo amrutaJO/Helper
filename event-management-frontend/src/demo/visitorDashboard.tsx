@@ -74,6 +74,13 @@ const VisitorDashboard = () => {
           </button>
 
 
+          <button
+            onClick={() => navigate("/live-map")}
+            className="bg-gray-200 hover:bg-gray-300 text-black font-semibold py-2 px-4 rounded-md transition duration-300 ease-in-out"
+          >
+            LiveMaps
+          </button>
+
 
 
           <button
